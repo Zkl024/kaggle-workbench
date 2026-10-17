@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "mcpServers": {
+    "kaggle-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["./server.mjs"],
+      "env": {},
+      "description": "Kaggle 平台工具：数据集检索与详情、数据集下载、内核检索、竞赛列表与环境自检。",
+      "timeout": 30000
+    }
+  }
+}

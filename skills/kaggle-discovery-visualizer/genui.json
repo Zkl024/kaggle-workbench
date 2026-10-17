@@ -1,0 +1,10 @@
+{
+  "protocol": "mavis.widget.v1",
+  "mode": "forked",
+  "forkedFrom": "minimax/genui-widget@mavis.widget.v1",
+  "sourceDigest": "sha256:d87698b8515276fe3e0a637d83c0d2fe2477ccd6321cefd247193a68f0b55cb9",
+  "sourceDigestAlgorithm": "sha256 over UTF-8 lines of '<relative-path> <sha256>' joined by LF, files sorted as SKILL.md, references/color-system.md, references/visual-rules.md, references/widget-patterns.md, references/widget-recipes.md",
+  "businessSkill": "kaggle-discovery",
+  "derivedFrom": "kaggle-workbench plugin, kaggle-discovery business skill",
+  "notes": "User-owned fork. The copied foundation under references/genui-widget/ is verbatim; these instructions do not relax Host enforcement of iframe sandboxing, CSP, allowed capabilities, output-size limits, or protocol validation."
+}

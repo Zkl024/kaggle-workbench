@@ -1,0 +1,26 @@
+# Credentials and local auth state must never be committed.
+.kaggle/
+kaggle.json
+credentials.json
+*.env
+.env*
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Downloaded data and working output
+kaggle-data/
+*.zip
+*.csv
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
